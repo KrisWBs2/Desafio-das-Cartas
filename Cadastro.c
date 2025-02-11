@@ -1,14 +1,14 @@
-#include <stdio.h>
-int main(){
+#include <stdio.h> // incluir biblioteca do C
+int main(){ //iniciar codes
 
-char cidade;
-float populacao;
+char cidade; //Variável para caracteres
+float populacao; //Variável para número decimais
 float area;
 float pib;
-int turistico;
+int turistico; //Variável para inteiros
 
-printf("Escreva a sigla da cidade\n");
-scanf("%s", &cidade);
+printf("Escreva a sigla da cidade\n"); //Escrever algo no terminal
+scanf("%s", &cidade); //Guardar uma resposta do terminal
 
 printf("Escreva a população da sua cidade\n");
 scanf("%f", &populacao);
